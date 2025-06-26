@@ -1,7 +1,11 @@
 // tracker.js
-const fs = require('fs');
-const path = require('path');
-const chokidar = require('chokidar');
+// const fs = require('fs');
+// const path = require('path');
+// const chokidar = require('chokidar');
+
+import fs from 'fs';
+import path from 'path';
+import chokidar from 'chokidar';
 
 const workspaceRoot = process.cwd();
 const trackingDir = path.join(workspaceRoot, '.modify_tracking');
